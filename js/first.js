@@ -49,6 +49,17 @@ function prompt123() {
     var name = prompt("What is you Name??");
     console.log(name);
     // document.write(name);
+}
+function promptNumber() {
+    var no1 = 5
+    var no2 = prompt("What's your Age ?");
+    var no2ForNumbers = parseInt(no2);
+    var result = no1 + no2;
+    var result2 = no1 + no2ForNumbers;
+    var age = "I'm " + no2ForNumbers + " years old";
+    console.log(result);
+    console.log(result2);
+    console.log(age)
+
 
 }
-
