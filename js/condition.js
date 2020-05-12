@@ -30,7 +30,7 @@ else {
 // Logical Operators (&&(And), ||(OR), !(Not))
 
 // Conditions with Logical Operator
-if (logicalValve > 4 && logicalValve < 6) {
+if (logicalValve > 4 && logicalValve == 5) {
     console.log(logicalValve);
     console.log(true);
 } else {
